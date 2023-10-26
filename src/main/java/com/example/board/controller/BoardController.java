@@ -10,6 +10,7 @@ public class BoardController {
 
     //private final BoardService boardService;
 
+    //
     @GetMapping("/board/spr_board")
     public String sprBoardForm(){
         return "spr_board";
